@@ -58,14 +58,14 @@ function App() {
     <>
       <div className="App mb-3">
         <div className="content">
-              <h3>{ title.header }</h3>
+          <h3>{ title.header }</h3>
         </div>
       </div>
       <div className='d-flex'>
         <div className="col-10">
           <h3>{ title.content1 }</h3>
         </div>
-        <div className="col-2">
+        <div className="col-2 d-flex">
           <button className='graphButton'>Weekly <FontAwesomeIcon icon={faChevronDown} /></button>
         </div>
       </div>

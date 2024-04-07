@@ -99,6 +99,7 @@ h3{
 .footer {
   align-items: center;
   height: 75px;
+  width: 100%;
   
   div {
     display: flex;
