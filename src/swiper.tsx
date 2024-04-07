@@ -169,9 +169,6 @@ function generateDateArray(startDate: Date, endDate: Date) {
                 </div>
               </div>
             </div>
-            <div>
-              {date.toISOString().slice(0, 10)}
-            </div>
           </div>
         ))}
       </div>

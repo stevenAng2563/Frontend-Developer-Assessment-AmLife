@@ -55,17 +55,17 @@ function App() {
     console.log("abcd", barStyles(hoursSlept[theday], dayColor[theday]))
     ))
   return (
-    <>
+    <div className='mb-6'>
       <div className="App mb-3">
         <div className="content">
           <h3>{ title.header }</h3>
         </div>
       </div>
       <div className='d-flex'>
-        <div className="col-10">
+        <div className="col-9">
           <h3>{ title.content1 }</h3>
         </div>
-        <div className="col-2 d-flex">
+        <div className="col-3 d-flex">
           <button className='graphButton'>Weekly <FontAwesomeIcon icon={faChevronDown} /></button>
         </div>
       </div>
@@ -85,7 +85,7 @@ function App() {
         <h3>{title.content2}</h3>
         <MySwiper />
       </div>
-    </>
+    </div>
   );
 }
 
