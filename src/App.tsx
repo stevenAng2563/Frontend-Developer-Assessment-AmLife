@@ -1,5 +1,13 @@
 import './App.css';
 import MySwiper from './swiper';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const hoursSlept: Record<string, number> = {
   monday: 510,
@@ -50,12 +58,15 @@ function App() {
     <>
       <div className="App mb-3">
         <div className="content">
-          <h3>{ title.header }</h3>
+              <h3>{ title.header }</h3>
         </div>
       </div>
-      <div>
-        <div className="content">
+      <div className='d-flex'>
+        <div className="col-10">
           <h3>{ title.content1 }</h3>
+        </div>
+        <div className="col-2">
+          <button className='graphButton'>Weekly <FontAwesomeIcon icon={faChevronDown} /></button>
         </div>
       </div>
       <div className='h-100 chart-wrap mb-3'>

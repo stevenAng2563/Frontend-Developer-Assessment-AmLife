@@ -25,3 +25,61 @@
     color: white;
     border-radius: 10px;
 }
+
+.swiper-content {
+    margin-top: 100px!important;
+    
+    .bedtime {
+        .bedtime-col {
+            background-color: white;
+            border-radius: 25px;
+            margin: 1rem 0rem;
+
+            .col-2, .col-10 {
+                margin: 1rem 0rem;
+            }
+        }
+    }
+}
+
+.small-letter {
+    text-transform: lowercase;
+    padding-left: 5px;
+}
+
+.bed-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alarm-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abc {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+}
+
+.primary {
+    background-color: white;
+    width: 50%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.toggleButton {
+    width: 25%;
+    margin-left: auto;
+    border-radius: 25px;
+    max-width: 80px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
